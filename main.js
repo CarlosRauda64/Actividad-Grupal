@@ -1,6 +1,6 @@
 let grade = 0;
 
-const correctAnswer = ["A","C","D","B"] //Declaración de respuestas correctas según ek número de preguntas preestablecidas
+const correctAnswer = ["B","C","C","B"] //Declaración de respuestas correctas según ek número de preguntas preestablecidas
 
 const button = document.querySelector('button'); //lamamos el boton
 
