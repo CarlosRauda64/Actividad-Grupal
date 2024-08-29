@@ -7,11 +7,12 @@ const button = document.querySelector('button'); //lamamos el boton
 button.addEventListener('click',test)
 
 function test(){
-
+    //Se deshabilita los select y boton para que no se pueda modificar respuestas
     let disableAnswers = document.querySelectorAll('select');
     disableAnswers.forEach(function(select) {
     select.disabled = true;
     });
+    button.disabled = true;
 
     //Se crea un for que itera sobre el arreglo correctAnswer para ir evaluando cada respuesta
     for (let i= 0; i< correctAnswer.length; i++){ 
